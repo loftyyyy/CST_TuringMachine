@@ -1,70 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import com.jfoenix.controls.JFXButton?>
-<?import javafx.scene.image.Image?>
-<?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.shape.Polygon?>
-<?import javafx.scene.shape.Rectangle?>
-<?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="788.0" prefWidth="1541.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.project.turingmachineproject.HomePageController">
-    <children>
-        <Rectangle arcHeight="5.0" arcWidth="5.0" height="788.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1541.0" />
-      <ImageView fitHeight="790.0" fitWidth="824.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../Pictures/BG2.jpeg" />
-         </image>
-      </ImageView>
-        <Rectangle arcWidth="5.0" fill="#00000080" height="788.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.0" width="1541.0" />
-        <Text fill="#db81ef" layoutX="117.0" layoutY="268.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TURING MACHINE" wrappingWidth="586.13330078125">
-            <font>
-                <Font name="Tektur Narrow Bold" size="150.0" />
-            </font>
-        </Text>
-      <ImageView fitHeight="507.0" fitWidth="726.0" layoutX="32.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../Pictures/Alan%20Turing%20Final%20Picture.png" />
-         </image>
-      </ImageView>
-        <Text fill="#ffffff00" layoutX="117.0" layoutY="267.0" stroke="WHITE" strokeType="INSIDE" strokeWidth="0.5" text="TURING MACHINE" wrappingWidth="585.8667602539062">
-            <font>
-                <Font name="Tektur Narrow Bold" size="150.0" />
-            </font>
-        </Text>
-        <Text fill="#db81ef" layoutX="173.0" layoutY="652.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Alan Turing ">
-            <font>
-                <Font name="Tektur Narrow Regular" size="50.0" />
-            </font>
-        </Text>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.example.project.turingmachineproject.HomePage"
+            prefHeight="400.0" prefWidth="600.0">
 
-        <Text fill="WHITE" layoutX="168.0" layoutY="700.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The Father ot Modern Computing ">
-            <font>
-                <Font name="Tektur Narrow Regular" size="36.0" />
-            </font>
-        </Text>
-
-        <Text fill="#db81ef" layoutX="816.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A Turing machine is an abstract computational model that performs computations by reading and writing to an infinite tape. Turing machines provide a powerful computational model for solving problems in computer science and testing the limits of computation. In this, platform, you will be able to witness how this phenomenal state of the art machine works." textAlignment="CENTER" wrappingWidth="697.5740814208987">
-            <font>
-                <Font name="Tektur Narrow Regular" size="35.0" />
-            </font>
-        </Text>
-        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="94.0" layoutX="962.0" layoutY="611.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="404.0" />
-        <JFXButton buttonType="RAISED" layoutX="895.0" layoutY="585.0" prefHeight="147.0" prefWidth="549.0" text="START" textFill="WHITE">
-            <font>
-                <Font name="Tektur Narrow Regular" size="75.0" />
-            </font>
-        </JFXButton>
-        <Polygon fill="#5a3eb8" layoutX="984.0" layoutY="653.0" points="-49.26666259765625, -13.4000244140625, 8.5999755859375, -13.4000244140625, -22.066650390625, -41.4000244140625" stroke="#5a3eb8" strokeType="INSIDE" strokeWidth="0.0" />
-        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="69.0" layoutX="905.0" layoutY="636.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="84.0" />
-      <ImageView fitHeight="160.0" fitWidth="235.0" layoutX="35.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../../Pictures/TeamHiluxLogoInverted69-01-removebg-preview.png" />
-         </image>
-      </ImageView>
-      <Rectangle arcWidth="5.0" fill="#5a3eb8" height="69.0" layoutX="1305.0" layoutY="611.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="114.0" />
-      <Polygon fill="#5a3eb8" layoutX="1360.0" layoutY="722.0" points="6.7332763671875, -17.06671142578125, 32.3333740234375, -50.13336181640625, -39.13330078125, -50.13336181640625" stroke="#5a3eb8" strokeType="INSIDE" strokeWidth="0.0" />
-
-    </children>
 </AnchorPane>
