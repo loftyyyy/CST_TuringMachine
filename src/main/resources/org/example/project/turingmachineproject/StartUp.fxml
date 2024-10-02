@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="788.0" prefWidth="1541.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <ImageView fitHeight="1088.0" fitWidth="2299.0" layoutY="-298.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Pictures/BG.jpeg" />
+         </image>
+      </ImageView>
+
+        <Group focusTraversable="true">
+            <children>
+                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000080" height="790.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1542.0" />
+                <Text fill="#db81ef" layoutX="235.0" layoutY="277.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TURING MACHINE" wrappingWidth="250.91140747070312">
+                    <font>
+                        <Font name="Tektur Narrow Regular" size="38.0" />
+                    </font>
+                </Text>
+                <JFXButton layoutX="275.0" layoutY="291.0" prefHeight="29.0" prefWidth="165.0" text="PRESS ANY KEY TO START " textFill="WHITE">
+                    <font>
+                        <Font name="Tektur Narrow Regular" size="15.0" />
+                    </font>
+                </JFXButton>
+                <Line endX="165.6000213623047" endY="261.9595642089844" layoutX="6.0" layoutY="1.0" startX="-6.000006198883057" startY="261.9595642089844" stroke="#7a449a" strokeWidth="0.5" />
+                <Line endX="165.6000213623047" endY="261.9595642089844" layoutX="564.0" layoutY="1.0" startX="-6.000006198883057" startY="261.9595642089844" stroke="#7a449a" strokeWidth="0.5" />
+            </children></Group>
+        <Rectangle arcWidth="5.0" fill="#7a449a" height="188.0" layoutX="188.0" layoutY="174.0" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="26.0" />
+        <Rectangle arcWidth="5.0" fill="#7a449a" height="188.0" layoutX="507.0" layoutY="173.0" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="26.0" />
+        <Polygon fill="#7a449a" layoutX="558.0" layoutY="431.0" points="-25.000015258789062, -70.0, -51.20002746582031, -39.399993896484375, -51.20002746582031, -70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#7a449a" layoutX="246.0" layoutY="187.0" points="-32.0, -40.19999694824219, -32.0, -13.0, -57.99998474121094, -13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#7a449a" layoutX="565.0" layoutY="187.0" points="-57.99998474121094, -39.19999694824219, -32.0, -14.0, -57.99998474121094, -13.600006103515625" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Rectangle arcWidth="5.0" height="186.0" layoutX="189.0" layoutY="175.0" opacity="0.75" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+        <Polygon layoutX="243.0" layoutY="188.0" opacity="0.75" points="-28.999984741210938, -39.399993896484375, -28.999984741210938, -13.0, -54.0, -13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#7a449a" layoutX="239.0" layoutY="432.0" points="-25.000015258789062, -70.0, -25.000015258789062, -40.399993896484375, -51.20002746582031, -70.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon layoutX="244.0" layoutY="403.0" opacity="0.75" points="-30.0, -42.0, -30.0, -13.600006103515625, -55.0, -42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="185.0" layoutX="202.0" layoutY="175.0" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+        <Polygon fill="#5a3eb8" layoutX="251.0" layoutY="425.0" points="-36.999969482421875, -65.0, -36.999969482421875, -50.600006103515625, -49.0, -65.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#5a3eb8" layoutX="244.0" layoutY="226.0" points="-29.999984741210938, -64.19999694824219, -30.0, -51.0, -42.0, -51.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Rectangle arcWidth="5.0" height="186.0" layoutX="507.0" layoutY="173.0" opacity="0.75" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="25.0" />
+        <Rectangle arcWidth="5.0" fill="#5a3eb8" height="185.0" layoutX="507.0" layoutY="174.0" smooth="false" stroke="BLACK" strokeMiterLimit="0.0" strokeType="INSIDE" strokeWidth="0.0" width="12.0" />
+        <Polygon layoutX="561.0" layoutY="186.0" opacity="0.75" points="-54.0, -36.600006103515625, -28.999984741210938, -13.0, -54.0, -13.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon layoutX="562.0" layoutY="401.0" opacity="0.75" points="-30.0, -42.0, -55.0, -11.399993896484375, -55.0, -42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#5a3eb8" layoutX="556.0" layoutY="422.0" points="-37.0, -63.0, -49.0, -47.699981689453125, -49.0, -63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#5a3eb8" layoutX="549.0" layoutY="224.0" points="-42.0, -62.80000305175781, -30.0, -50.0, -42.0, -50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+    </children>
+</AnchorPane>
