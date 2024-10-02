@@ -11,6 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
+
 <AnchorPane prefHeight="788.0" prefWidth="1541.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
     <children>
       <ImageView fitHeight="1088.0" fitWidth="2299.0" layoutY="-298.0" pickOnBounds="true" preserveRatio="true">
@@ -53,5 +54,8 @@
         <Polygon layoutX="562.0" layoutY="401.0" opacity="0.75" points="-30.0, -42.0, -55.0, -11.399993896484375, -55.0, -42.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
         <Polygon fill="#5a3eb8" layoutX="556.0" layoutY="422.0" points="-37.0, -63.0, -49.0, -47.699981689453125, -49.0, -63.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
         <Polygon fill="#5a3eb8" layoutX="549.0" layoutY="224.0" points="-42.0, -62.80000305175781, -30.0, -50.0, -42.0, -50.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <StackPane xmlns:fx="http://javafx.com/fxml" fx:controller="org.example.project.turingmachineproject.SVGLogicController">
+            <ImageView fx:id="Layer_1" />
+        </StackPane>
     </children>
 </AnchorPane>
