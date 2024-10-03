@@ -14,7 +14,7 @@ public class SVGLogicController extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("StartUp.fxml")); // Path to your FXML file
         primaryStage.setTitle("SVG Example");
-        primaryStage.setScene(new Scene(root, 600, 400));
+        primaryStage.setScene(new Scene(root));
         primaryStage.show();
     }
 

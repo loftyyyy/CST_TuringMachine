@@ -51,7 +51,7 @@
             </font>
         </Text>
         <Rectangle arcWidth="5.0" fill="#5a3eb8" height="94.0" layoutX="962.0" layoutY="611.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="404.0" />
-        <JFXButton buttonType="RAISED" layoutX="895.0" layoutY="585.0" prefHeight="147.0" prefWidth="549.0" text="START" textFill="WHITE">
+        <JFXButton fx:id="startBTN" buttonType="RAISED" layoutX="895.0" layoutY="585.0" onAction="#Start" prefHeight="147.0" prefWidth="549.0" text="START" textFill="WHITE">
             <font>
                 <Font name="Tektur Narrow Regular" size="75.0" />
             </font>
